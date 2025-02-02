@@ -12,8 +12,13 @@ function App() {
         </header>
         <main>
           <Dictionary />
-          <footer className='App-footer'>
-            Coded by Kristi Boverhuis
+          <footer className="App-footer">
+            This project was coded by Kristi Boverhuis, is open-source on{" "}
+            <a href="https://github.com/kboverhuis/dictionary-project">
+              GitHub
+            </a>
+            and hosted on{" "}
+            <a href="https://app.netlify.com/sites/verdant-sopapillas-a39c0d/overview">Netlify</a>
           </footer>
         </main>
       </div>

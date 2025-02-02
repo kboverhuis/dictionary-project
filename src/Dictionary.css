@@ -1,5 +1,19 @@
 .Dictionary {
-  text-align: center;
+text-align: center;
   background-color: rgb(186, 223, 240);
+  margin: 20px;
   padding: 20px;
 }
+
+.Results:first-letter {
+  text-transform: capitalize;
+}
+
+.Speech:first-letter {
+  text-transform: capitalize;
+}
+
+.Definition:first-letter {
+  text-transform: capitalize;
+}
+
