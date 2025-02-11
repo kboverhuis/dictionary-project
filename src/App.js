@@ -1,4 +1,4 @@
-import logo from './shecodes-logo.png';
+import logo from './book-logo.png';
 import './App.css';
 import Dictionary from './Dictionary'
 

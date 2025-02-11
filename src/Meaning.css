@@ -1,0 +1,10 @@
+.Speech {
+  text-transform: capitalize;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.Definition {
+  text-transform: capitalize;
+  margin: 15px 0;
+}
