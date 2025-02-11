@@ -11,7 +11,7 @@ function App() {
           Dictionary
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="Dictionary"/>
           <footer className="App-footer">
             This project was coded by Kristi Boverhuis, is open-source on{" "}
             <a href="https://github.com/kboverhuis/dictionary-project">

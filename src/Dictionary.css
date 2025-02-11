@@ -1,7 +1,22 @@
-.Dictionary {
-  background-color: rgb(186, 223, 240);
-  margin: 20px;
-  padding: 20px;
+.Dictionary section {
+  background-color: rgb(226, 237, 243);
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  margin: 20px 0;
+  padding: 30px;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px;
+  color: #333;
+  border: 1px solid #b4b3b3;
+  border-radius: 6px;
+}
+
+.Dictionary .hint {
+font-size: 10px;
+margin: 2px 6px;
 }
 
 .Results:first-letter {
