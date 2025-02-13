@@ -12,7 +12,9 @@ if (props.photos) {
           return (
             <div className="col-4" key={index}>
               <a href={photo.src.original} target="_blank" rel="noreferrer">
-                <img src={photo.src.landscape} className="img-fluid" />
+                <img src={photo.src.landscape} 
+                className="img-fluid"
+                alt="images" />
               </a>
             </div>
           );
