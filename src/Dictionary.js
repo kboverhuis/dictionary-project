@@ -15,7 +15,7 @@ function handleResponse(response) {
 }
 
 function handlePhotosResponse(response) {
-  console.log(response.data.photos[0]);
+  setPhotos(response.data.photos);
 }
 
 function search() {
@@ -25,7 +25,6 @@ function search() {
 
   const apiPhotosKey = `8908d7b1834oa44093b7b64af0t393f3`;
   let photosApiUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${apiPhotosKey}`;
-
   axios.get(photosApiUrl).then(handlePhotosResponse);
 }
 
@@ -55,7 +54,7 @@ if (loaded) {
             placeholder="Search Dictionary"
           ></input>
         </form>
-        <div className="hint">Ex : Bike, cookies, cats, plants...</div>
+        <div className="hint">Ex : Bike, cookies, cats, plants, etc...</div>
       </section>
       <Results results={results} />
       <Photos photos={photos} />
